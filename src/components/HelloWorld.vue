@@ -4,12 +4,7 @@
     <h2>Essential Links</h2>
     <ul>
       <li>
-        <a
-          href="https://vuejs.org"
-          target="_blank"
-        >
-          Core Docs
-        </a>
+        <router-link to="/img"> Img Web Design</router-link>
       </li>
       <li>
         <a
@@ -80,6 +75,7 @@
         </a>
       </li>
     </ul>
+    <router-view></router-view>
   </div>
 </template>
 
